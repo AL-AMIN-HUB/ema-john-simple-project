@@ -8,7 +8,7 @@ const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
 
-  //product to be rendered on this UI
+  //products to be rendered on this UI
   const [displayProducts, setDisplayProducts] = useState([]);
   useEffect(() => {
     fetch("./products.JSON")
