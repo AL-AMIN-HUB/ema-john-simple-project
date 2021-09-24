@@ -1,0 +1,12 @@
+.shop {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 0.5rem;
+}
+.product-container {
+  padding-left: 10%;
+  border-right: 1px solid lightgray;
+}
+.search-container {
+  background-color: #444;
+}

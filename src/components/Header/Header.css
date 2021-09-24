@@ -1,0 +1,20 @@
+.header-logo {
+  width: 300px;
+}
+
+.nav {
+  position: sticky;
+  top: -100px;
+  background-color: #222;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 7px 20px;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
